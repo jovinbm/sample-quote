@@ -1,0 +1,32 @@
+.section {
+  min-height: 500px;
+  border: 1px solid black; }
+
+#quote-section .heading {
+  text-align: center; }
+  #quote-section .heading h1 {
+    font-size: 40px; }
+
+#quote-section .main {
+  position: relative; }
+
+#quote-section .body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 60%;
+  margin: 0 auto; }
+  #quote-section .body .content {
+    flex-basis: 60%; }
+    #quote-section .body .content p {
+      font-size: 24px; }
+  #quote-section .body .quote {
+    flex-basis: 30%; }
+    #quote-section .body .quote p {
+      font-size: 28px; }
+
+#quote-section .quote-body {
+  position: absolute;
+  top: 0;
+  left: 0; }

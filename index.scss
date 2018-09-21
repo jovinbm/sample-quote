@@ -1,0 +1,46 @@
+.section {
+  min-height: 500px;
+  border: 1px solid black;
+}
+
+#quote-section {
+  .heading {
+    text-align: center;
+    h1 {
+      font-size: 40px;
+    }
+  }
+
+  .main {
+    position: relative;
+  }
+
+  .body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+
+    .content {
+      flex-basis: 60%;
+      p {
+        font-size: 24px;
+      }
+    }
+
+    .quote {
+      flex-basis: 30%;
+      p {
+        font-size: 28px;
+      }
+    }
+  }
+
+  .quote-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
